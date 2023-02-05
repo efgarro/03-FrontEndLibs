@@ -34,7 +34,7 @@ function App() {
   if (!reactHotLoader) {
     return;
   }
-  reactHotLoader.register(App, "App", "C:\\00-CodeShop\\00-SandBox\\21-CreateApp-Dev\\src\\App-rmd.js");
+  reactHotLoader.register(App, "App", "C:\\00-CodeShop\\03-FrontEndLibs\\01-MarkDown-Baby\\src\\App-rmd.js");
 })();
 ;
 (function () {
@@ -66,21 +66,18 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
   return a;
 };
 
-// import ReactDOM from "react-dom";
 
 
 
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById("root"));
 root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App_rmd__WEBPACK_IMPORTED_MODULE_2__["default"], null));
-
-// ReactDOM.render(<AppRmd />, document.getElementById("root"));
 ;
 (function () {
   var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
   if (!reactHotLoader) {
     return;
   }
-  reactHotLoader.register(root, "root", "C:\\00-CodeShop\\00-SandBox\\21-CreateApp-Dev\\src\\index.js");
+  reactHotLoader.register(root, "root", "C:\\00-CodeShop\\03-FrontEndLibs\\01-MarkDown-Baby\\src\\index.js");
 })();
 ;
 (function () {
@@ -38470,6 +38467,29 @@ function whitespace(thing) {
 
 /***/ }),
 
+/***/ "./node_modules/is-plain-obj/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/is-plain-obj/index.js ***!
+  \********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ isPlainObject)
+/* harmony export */ });
+function isPlainObject(value) {
+	if (typeof value !== 'object' || value === null) {
+		return false;
+	}
+
+	const prototype = Object.getPrototypeOf(value);
+	return (prototype === null || prototype === Object.prototype || Object.getPrototypeOf(prototype) === null) && !(Symbol.toStringTag in value) && !(Symbol.iterator in value);
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/kleur/index.mjs":
 /*!**************************************!*\
   !*** ./node_modules/kleur/index.mjs ***!
@@ -40187,7 +40207,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('hast').Element} Element
  * @typedef {import('hast').ElementContent} ElementContent
  *
- * @typedef {import('./state.js.js').State} State
+ * @typedef {import('./state.js').State} State
  */
 
 
@@ -41792,7 +41812,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('mdast').Content} MdastContent
  * @typedef {import('mdast').Root} MdastRoot
  *
- * @typedef {import('./state.js.js').Options} Options
+ * @typedef {import('./state.js').Options} Options
  */
 
 /**
@@ -41918,7 +41938,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('mdast').Reference} Reference
  * @typedef {import('mdast').Root} Root
  *
- * @typedef {import('./state.js.js').State} State
+ * @typedef {import('./state.js').State} State
  */
 
 /**
@@ -51558,8 +51578,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_hast_to_react_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/hast-to-react.js */ "./node_modules/property-information/lib/hast-to-react.js");
 /* harmony import */ var _lib_normalize_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lib/normalize.js */ "./node_modules/property-information/lib/normalize.js");
 /**
- * @typedef {import('./lib/util/info.js.js').Info} Info
- * @typedef {import('./lib/util/schema.js.js').Schema} Schema
+ * @typedef {import('./lib/util/info.js').Info} Info
+ * @typedef {import('./lib/util/schema.js').Schema} Schema
  */
 
 
@@ -51670,7 +51690,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_defined_info_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/defined-info.js */ "./node_modules/property-information/lib/util/defined-info.js");
 /* harmony import */ var _util_info_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/info.js */ "./node_modules/property-information/lib/util/info.js");
 /**
- * @typedef {import('./util/schema.js.js').Schema} Schema
+ * @typedef {import('./util/schema.js').Schema} Schema
  */
 
 
@@ -52769,8 +52789,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _schema_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./schema.js */ "./node_modules/property-information/lib/util/schema.js");
 /* harmony import */ var _defined_info_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defined-info.js */ "./node_modules/property-information/lib/util/defined-info.js");
 /**
- * @typedef {import('./schema.js.js').Properties} Properties
- * @typedef {import('./schema.js.js').Normal} Normal
+ * @typedef {import('./schema.js').Properties} Properties
+ * @typedef {import('./schema.js').Normal} Normal
  *
  * @typedef {Record<string, string>} Attributes
  *
@@ -52944,8 +52964,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _schema_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./schema.js */ "./node_modules/property-information/lib/util/schema.js");
 /**
- * @typedef {import('./schema.js.js').Properties} Properties
- * @typedef {import('./schema.js.js').Normal} Normal
+ * @typedef {import('./schema.js').Properties} Properties
+ * @typedef {import('./schema.js').Normal} Normal
  */
 
 
@@ -52985,7 +53005,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Schema": () => (/* binding */ Schema)
 /* harmony export */ });
 /**
- * @typedef {import('./info.js.js').Info} Info
+ * @typedef {import('./info.js').Info} Info
  * @typedef {Record<string, Info>} Properties
  * @typedef {Record<string, string>} Normal
  */
@@ -53176,7 +53196,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('hast').DocType} Doctype
  * @typedef {import('property-information').Info} Info
  * @typedef {import('property-information').Schema} Schema
- * @typedef {import('./complex-types.js.js').ReactMarkdownProps} ReactMarkdownProps
+ * @typedef {import('./complex-types.js').ReactMarkdownProps} ReactMarkdownProps
  *
  * @typedef Raw
  * @property {'raw'} type
@@ -53244,7 +53264,7 @@ __webpack_require__.r(__webpack_exports__);
  * @property {TableRowComponent|ReactMarkdownNames} tr
  * @property {UnorderedListComponent|ReactMarkdownNames} ul
  *
- * @typedef {Partial<Omit<import('./complex-types.js.js').NormalComponents, keyof SpecialComponents> & SpecialComponents>} Components
+ * @typedef {Partial<Omit<import('./complex-types.js').NormalComponents, keyof SpecialComponents> & SpecialComponents>} Components
  *
  * @typedef Options
  * @property {boolean} [sourcePos=false]
@@ -53640,8 +53660,8 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('react').ReactElement<{}>} ReactElement
  * @typedef {import('unified').PluggableList} PluggableList
  * @typedef {import('hast').Root} Root
- * @typedef {import('./rehype-filter.js.js').Options} FilterOptions
- * @typedef {import('./ast-to-react.js.js').Options} TransformOptions
+ * @typedef {import('./rehype-filter.js').Options} FilterOptions
+ * @typedef {import('./ast-to-react.js').Options} TransformOptions
  *
  * @typedef CoreOptions
  * @property {string} children
@@ -54448,7 +54468,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bail__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bail */ "./node_modules/bail/index.js");
 /* harmony import */ var is_buffer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! is-buffer */ "./node_modules/is-buffer/index.js");
 /* harmony import */ var extend__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! extend */ "./node_modules/extend/index.js");
-/* harmony import */ var is_plain_obj__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! is-plain-obj */ "./node_modules/unified/node_modules/is-plain-obj/index.js");
+/* harmony import */ var is_plain_obj__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! is-plain-obj */ "./node_modules/is-plain-obj/index.js");
 /* harmony import */ var trough__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! trough */ "./node_modules/trough/index.js");
 /* harmony import */ var vfile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vfile */ "./node_modules/vfile/lib/index.js");
 /**
@@ -55049,29 +55069,6 @@ function looksLikeAVFile(value) {
  */
 function looksLikeAVFileValue(value) {
   return typeof value === 'string' || is_buffer__WEBPACK_IMPORTED_MODULE_0__(value)
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/unified/node_modules/is-plain-obj/index.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/unified/node_modules/is-plain-obj/index.js ***!
-  \*****************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ isPlainObject)
-/* harmony export */ });
-function isPlainObject(value) {
-	if (typeof value !== 'object' || value === null) {
-		return false;
-	}
-
-	const prototype = Object.getPrototypeOf(value);
-	return (prototype === null || prototype === Object.prototype || Object.getPrototypeOf(prototype) === null) && !(Symbol.toStringTag in value) && !(Symbol.iterator in value);
 }
 
 
@@ -55749,7 +55746,7 @@ __webpack_require__.r(__webpack_exports__);
  *   Tree type.
  * @template {Test} [Check=string]
  *   Test type.
- * @typedef {Visitor<import('./complex-types.js.js').Matches<import('./complex-types.js.js').InclusiveDescendant<Tree>, Check>, Extract<import('./complex-types.js.js').InclusiveDescendant<Tree>, Parent>>} BuildVisitor
+ * @typedef {Visitor<import('./complex-types.js').Matches<import('./complex-types.js').InclusiveDescendant<Tree>, Check>, Extract<import('./complex-types.js').InclusiveDescendant<Tree>, Parent>>} BuildVisitor
  *   Build a typed `Visitor` function from a tree and a test.
  *
  *   It will infer which values are passed as `node` and which as `parents`.
@@ -56790,7 +56787,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('unist').Position} Position
  * @typedef {import('unist').Point} Point
  * @typedef {Record<string, unknown> & {type: string, position?: Position|undefined}} NodeLike
- * @typedef {import('./minurl.shared.js.js').URL} URL
+ * @typedef {import('./minurl.shared.js').URL} URL
  * @typedef {import('../index.js').Data} Data
  * @typedef {import('../index.js').Value} Value
  *

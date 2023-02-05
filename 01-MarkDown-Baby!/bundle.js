@@ -40187,7 +40187,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('hast').Element} Element
  * @typedef {import('hast').ElementContent} ElementContent
  *
- * @typedef {import('./state.js').State} State
+ * @typedef {import('./state.js.js').State} State
  */
 
 
@@ -41792,7 +41792,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('mdast').Content} MdastContent
  * @typedef {import('mdast').Root} MdastRoot
  *
- * @typedef {import('./state.js').Options} Options
+ * @typedef {import('./state.js.js').Options} Options
  */
 
 /**
@@ -41918,7 +41918,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('mdast').Reference} Reference
  * @typedef {import('mdast').Root} Root
  *
- * @typedef {import('./state.js').State} State
+ * @typedef {import('./state.js.js').State} State
  */
 
 /**
@@ -51558,8 +51558,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_hast_to_react_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/hast-to-react.js */ "./node_modules/property-information/lib/hast-to-react.js");
 /* harmony import */ var _lib_normalize_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lib/normalize.js */ "./node_modules/property-information/lib/normalize.js");
 /**
- * @typedef {import('./lib/util/info.js').Info} Info
- * @typedef {import('./lib/util/schema.js').Schema} Schema
+ * @typedef {import('./lib/util/info.js.js').Info} Info
+ * @typedef {import('./lib/util/schema.js.js').Schema} Schema
  */
 
 
@@ -51670,7 +51670,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_defined_info_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util/defined-info.js */ "./node_modules/property-information/lib/util/defined-info.js");
 /* harmony import */ var _util_info_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./util/info.js */ "./node_modules/property-information/lib/util/info.js");
 /**
- * @typedef {import('./util/schema.js').Schema} Schema
+ * @typedef {import('./util/schema.js.js').Schema} Schema
  */
 
 
@@ -52769,8 +52769,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _schema_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./schema.js */ "./node_modules/property-information/lib/util/schema.js");
 /* harmony import */ var _defined_info_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defined-info.js */ "./node_modules/property-information/lib/util/defined-info.js");
 /**
- * @typedef {import('./schema.js').Properties} Properties
- * @typedef {import('./schema.js').Normal} Normal
+ * @typedef {import('./schema.js.js').Properties} Properties
+ * @typedef {import('./schema.js.js').Normal} Normal
  *
  * @typedef {Record<string, string>} Attributes
  *
@@ -52944,8 +52944,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _schema_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./schema.js */ "./node_modules/property-information/lib/util/schema.js");
 /**
- * @typedef {import('./schema.js').Properties} Properties
- * @typedef {import('./schema.js').Normal} Normal
+ * @typedef {import('./schema.js.js').Properties} Properties
+ * @typedef {import('./schema.js.js').Normal} Normal
  */
 
 
@@ -52985,7 +52985,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "Schema": () => (/* binding */ Schema)
 /* harmony export */ });
 /**
- * @typedef {import('./info.js').Info} Info
+ * @typedef {import('./info.js.js').Info} Info
  * @typedef {Record<string, Info>} Properties
  * @typedef {Record<string, string>} Normal
  */
@@ -53176,7 +53176,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('hast').DocType} Doctype
  * @typedef {import('property-information').Info} Info
  * @typedef {import('property-information').Schema} Schema
- * @typedef {import('./complex-types.js').ReactMarkdownProps} ReactMarkdownProps
+ * @typedef {import('./complex-types.js.js').ReactMarkdownProps} ReactMarkdownProps
  *
  * @typedef Raw
  * @property {'raw'} type
@@ -53244,7 +53244,7 @@ __webpack_require__.r(__webpack_exports__);
  * @property {TableRowComponent|ReactMarkdownNames} tr
  * @property {UnorderedListComponent|ReactMarkdownNames} ul
  *
- * @typedef {Partial<Omit<import('./complex-types.js').NormalComponents, keyof SpecialComponents> & SpecialComponents>} Components
+ * @typedef {Partial<Omit<import('./complex-types.js.js').NormalComponents, keyof SpecialComponents> & SpecialComponents>} Components
  *
  * @typedef Options
  * @property {boolean} [sourcePos=false]
@@ -53640,8 +53640,8 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('react').ReactElement<{}>} ReactElement
  * @typedef {import('unified').PluggableList} PluggableList
  * @typedef {import('hast').Root} Root
- * @typedef {import('./rehype-filter.js').Options} FilterOptions
- * @typedef {import('./ast-to-react.js').Options} TransformOptions
+ * @typedef {import('./rehype-filter.js.js').Options} FilterOptions
+ * @typedef {import('./ast-to-react.js.js').Options} TransformOptions
  *
  * @typedef CoreOptions
  * @property {string} children
@@ -55749,7 +55749,7 @@ __webpack_require__.r(__webpack_exports__);
  *   Tree type.
  * @template {Test} [Check=string]
  *   Test type.
- * @typedef {Visitor<import('./complex-types.js').Matches<import('./complex-types.js').InclusiveDescendant<Tree>, Check>, Extract<import('./complex-types.js').InclusiveDescendant<Tree>, Parent>>} BuildVisitor
+ * @typedef {Visitor<import('./complex-types.js.js').Matches<import('./complex-types.js.js').InclusiveDescendant<Tree>, Check>, Extract<import('./complex-types.js.js').InclusiveDescendant<Tree>, Parent>>} BuildVisitor
  *   Build a typed `Visitor` function from a tree and a test.
  *
  *   It will infer which values are passed as `node` and which as `parents`.
@@ -56790,7 +56790,7 @@ __webpack_require__.r(__webpack_exports__);
  * @typedef {import('unist').Position} Position
  * @typedef {import('unist').Point} Point
  * @typedef {Record<string, unknown> & {type: string, position?: Position|undefined}} NodeLike
- * @typedef {import('./minurl.shared.js').URL} URL
+ * @typedef {import('./minurl.shared.js.js').URL} URL
  * @typedef {import('../index.js').Data} Data
  * @typedef {import('../index.js').Value} Value
  *

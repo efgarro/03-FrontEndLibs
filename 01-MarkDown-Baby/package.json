@@ -10,7 +10,7 @@
     "clean": "rm build/bundle.js",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "start": "webpack serve --hot --mode development"
+    "dev": "webpack serve --hot --mode development"
   },
   "dependencies": {
     "@codemirror/lang-markdown": "^6.0.5",

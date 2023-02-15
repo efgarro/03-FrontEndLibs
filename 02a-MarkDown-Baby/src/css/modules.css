@@ -1,0 +1,44 @@
+/* Header Module */
+/* Large Screen Rules >= 992px */
+
+@media (min-width: 992px) {
+  .editor,
+  .result {
+    height: 85vh;
+    width: 600px;
+    overflow: auto;
+  }
+
+  .result {
+    background-color: var(--gray-0);
+    padding: calc(1em + 1ex);
+  }
+
+  .header--wrapper {
+    width: clamp(16rem, 85vw, 75rem);
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+    padding-right: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+  }
+
+  .header--title {
+    font-family: var(--ff-heading);
+  }
+  .footer--wrapper {
+    width: clamp(16rem, 85vw, 75rem);
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+    padding-right: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+  }
+
+  .footer--title {
+    font-family: var(--ff-heading);
+    text-align: right;
+  }
+}

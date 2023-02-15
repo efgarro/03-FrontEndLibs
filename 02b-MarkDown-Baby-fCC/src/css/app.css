@@ -1,0 +1,21 @@
+/* Organizing Properties */
+/* by Kevin Powel */
+/* https://www.youtube.com/watch?v=3Y03OSNw6zo */
+
+/* display */
+/* positioning */
+/* box-model */
+/* typography*/
+/* manipulating */
+/* miscellaneous */
+
+@import url(base.css);
+@import url(layout.css);
+
+/*Components*/
+@import url(header.css);
+@import url(navbar.css);
+@import url(hubBoard.css);
+@import url(card.css);
+
+

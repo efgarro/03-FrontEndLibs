@@ -7,6 +7,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
+    clean: true,
   },
   module: {
     rules: [
@@ -21,7 +22,7 @@ const config = {
       },
     ],
   },
-  devtool: "source-map",
+//  devtool: "source-map",
   devServer: {
     static: {
       directory: path.resolve(__dirname, "build"),
